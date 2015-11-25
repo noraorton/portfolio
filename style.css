@@ -1,0 +1,219 @@
+body {
+  background-color: #202420;
+  opacity: 0.9;
+  z-index: -20;
+}
+
+/*navbar*/
+nav.navbar.navbar-default {
+  border-color: none;
+  background-color: none;
+  padding: 0;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #f3f3f3;
+    z-index: 1000;
+}
+.nav.navbar-nav.navbar-right {
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  font-family: "Roboto", sans-serif;
+  background-color: none;
+
+}
+
+ul.nav a:hover { color: #175730 !important; }
+
+/*JUMBOTRON*/
+.jumbotron {
+  background-image: url('picsofme/portrait.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center -100px;
+  padding: 20%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.jumbotron h1 {
+  color: #f7fafe;
+  position: absolute;
+  font-family: 'raleway', sans-serif;
+  font-weight: lighter;
+  left: 0;
+  top: 100px;
+  padding-left: 20px;
+
+}
+
+
+
+/*
+MISSION*/
+.mission {
+  background-color: rgba(23, 87, 48, 0.75);
+  background-size: cover;
+  margin-top: -160px;
+  font-family: 'Muli', sans-serif;
+  color: #f7fafe;
+  padding-left: 20px;
+  position: relative;
+  top: 480px;
+  z-index: 4;
+}
+
+.mission h3 {
+  font-family: 'Raleway', sans-serif;
+  padding: 5% 10%;
+  text-align: center;
+  position: center;
+  font-size: 1.5em;
+  margin-top: -5px;
+  font-weight: normal;
+
+}
+
+.projects {
+  position: absolute;
+  top: 570px;
+  font-family: 'raleway', sans-serif;
+  color: #f3f3f3;
+  left: 30px;
+}
+
+
+
+.education {
+  background-image: url("picsofme/wilson.jpg");
+  background-position:  center -100px;
+  background-attachment: fixed;
+  z-index: 2000;
+  position: absolute;
+  top: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20%;
+  z-index: 100000;
+  width: 100%;
+  
+
+}
+
+
+.education {
+  color: #f3f3f3;
+  font-family: "raleway", sans-serif;
+}
+.education h1 {
+  position: absolute;
+  background-color: rgba(32, 36, 32, 0.5);
+  top: 30px;
+  left: 30px;
+  opacity: 1;
+
+}
+
+.education h3 {
+  background-position: center;
+  background-color: rgba(32, 36, 32, 0.5);
+  z-index: 30;
+  text-align: center;
+  padding: 5% 10%;
+  left: 30px;
+
+
+}
+
+.education h4 {
+  background-position: center;
+   background-color: rgba(32, 36, 32, 0.5);
+    text-align: center;
+    padding: 5% 10%;
+
+}
+.features {
+  position: absolute;
+  top: 650px;
+}
+
+.features img {
+
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.firstpic img {
+  position: absolute;
+  left: 50px;
+}
+
+.firstpic p {
+  position: relative;
+  left: 90px;
+}
+
+.secondpic img {
+  position: absolute;
+  left: 0px;
+ 
+}
+
+.secondpic p {
+  position: absolute;
+  left: 30px;
+}
+
+.thirdpic img {
+  position: absolute;
+  left: -30px;
+}
+
+.thirdpic p {
+  position: absolute;
+  left: 40px;
+}
+
+.features p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 5% 0;
+  color: #f3f3f3;
+  z-index: 700;
+  position: absolute;
+  top: 190px;
+ 
+}
+
+
+footer {
+  background-color: #A6172F;
+  position: absolute;
+  width: 100%;
+  top: 2000px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  float: right;
+}
+
+footer p {
+  float: left;
+  padding: 2%;
+}
+
+footer a, footer p {
+  color: #f7fafe;
+  vertical-align: middle;
+}
+
