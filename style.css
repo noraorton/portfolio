@@ -1,6 +1,5 @@
 body {
-  background-color: #202420;
-  opacity: 0.9;
+  background-color: rgb(32, 36, 32);
   z-index: -20;
 }
 
@@ -33,13 +32,21 @@ ul.nav a:hover { color: #175730 !important; }
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center -100px;
+  background-position: center -120px;
   padding: 20%;
   position: absolute;
   top: 0;
   z-index: 1;
   width: 100%;
 
+}
+
+.soshmeeds {
+  z-index: 2;
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 60;
 }
 
 .jumbotron h1 {
@@ -65,27 +72,33 @@ MISSION*/
   color: #f7fafe;
   padding-left: 20px;
   position: relative;
-  top: 480px;
+  height: 100px;
+  top: 492px;
   z-index: 4;
 }
 
-.mission h3 {
+.mission h2 {
   font-family: 'Raleway', sans-serif;
   padding: 5% 10%;
   text-align: center;
   position: center;
   font-size: 1.5em;
-  margin-top: -5px;
+  margin-top: -28px;
   font-weight: normal;
+  font-size: 30px;
 
 }
 
 .projects {
   position: absolute;
-  top: 570px;
+  top: 530px;
   font-family: 'raleway', sans-serif;
   color: #f3f3f3;
   left: 30px;
+}
+
+.projects h5 {
+
 }
 
 
@@ -96,7 +109,7 @@ MISSION*/
   background-attachment: fixed;
   z-index: 2000;
   position: absolute;
-  top: 1000px;
+  top: 1100px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20%;
@@ -138,9 +151,11 @@ MISSION*/
     padding: 5% 10%;
 
 }
+
+
 .features {
   position: absolute;
-  top: 650px;
+  top: 720px;
 }
 
 .features img {
@@ -157,29 +172,40 @@ MISSION*/
 
 .firstpic p {
   position: relative;
-  left: 90px;
+  left: 120px;
 }
 
 .secondpic img {
   position: absolute;
-  left: 0px;
+  left: -60px;
  
 }
 
 .secondpic p {
   position: absolute;
-  left: 30px;
+  left: -28px;
 }
 
 .thirdpic img {
   position: absolute;
-  left: -30px;
+  left: -160px;
 }
 
 .thirdpic p {
   position: absolute;
-  left: 40px;
+  left: -130px;
 }
+
+.fourthpic img {
+  position: absolute;
+  left: 900px;
+}
+
+.fourthpic p {
+  position: absolute;
+  left: 982px;
+}
+
 
 .features p {
   font-family: 'Raleway', sans-serif;
@@ -192,12 +218,29 @@ MISSION*/
  
 }
 
+.writing {
+  position: absolute;
+  top: 1900px;
+  color: #f3f3f3;
+  font-family: "raleway", sans-serif;
+  left: 30px;
+  z-index: 200;
+}
+
+.writingimages {
+  position: relative;
+  top: -630px;
+}
+
+.writingimages img {
+  border-radius: 100%;
+}
 
 footer {
   background-color: #A6172F;
   position: absolute;
   width: 100%;
-  top: 2000px;
+  top: 3000px;
 }
 
 footer ul li {
